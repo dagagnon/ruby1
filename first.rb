@@ -7,4 +7,4 @@ cups = gets.chomp
 cups = cups.to_i
 ounces = cups * 8
 
-puts cups << " cups = #{ounces} ounces"
+puts cups.to_s << " cups = #{ounces} ounces"
